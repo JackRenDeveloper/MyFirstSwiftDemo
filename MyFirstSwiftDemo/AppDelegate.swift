@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SlideMenuControllerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        self.window = UIWindow(frame:UIScreen.mainScreen().bounds)
+//        let rootController:ViewController = ViewController()
+        let nav = UINavigationController(rootViewController: ViewController())
+        let leftViewController = LeftViewController()
+        let rightViewController = AuthorInfoViewController()
+        let slideViewcontroller = SlideMenuController(mainViewController: nav, leftMenuViewController: leftViewController, rightMenuViewController: rightViewController)
+        self.window!.rootViewController = slideViewcontroller
+        self.window!.backgroundColor = UIColor.whiteColor()
+        self.window!.makeKeyAndVisible()
         return true
     }
 

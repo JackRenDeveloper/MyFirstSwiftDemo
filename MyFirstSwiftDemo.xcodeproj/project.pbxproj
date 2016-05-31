@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79A5D9321F0CE667B5DC1C50 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EE08A1D36C208AECF645A4 /* Pods.framework */; };
 		FDF31C201CFCAF09004C39EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C1F1CFCAF09004C39EC /* AppDelegate.swift */; };
 		FDF31C221CFCAF09004C39EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C211CFCAF09004C39EC /* ViewController.swift */; };
 		FDF31C251CFCAF09004C39EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF31C231CFCAF09004C39EC /* Main.storyboard */; };
@@ -14,6 +15,45 @@
 		FDF31C2A1CFCAF09004C39EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF31C281CFCAF09004C39EC /* LaunchScreen.storyboard */; };
 		FDF31C351CFCAF09004C39EC /* MyFirstSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C341CFCAF09004C39EC /* MyFirstSwiftDemoTests.swift */; };
 		FDF31C401CFCAF09004C39EC /* MyFirstSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C3F1CFCAF09004C39EC /* MyFirstSwiftDemoUITests.swift */; };
+		FDF31C4E1CFCBE6D004C39EC /* MyFirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C4D1CFCBE6D004C39EC /* MyFirstTableViewCell.swift */; };
+		FDF31C9C1CFDEAA1004C39EC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C6E1CFDEAA1004C39EC /* MBProgressHUD.m */; };
+		FDF31C9D1CFDEAA1004C39EC /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C721CFDEAA1004C39EC /* MJRefreshAutoFooter.m */; };
+		FDF31C9E1CFDEAA1004C39EC /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C741CFDEAA1004C39EC /* MJRefreshBackFooter.m */; };
+		FDF31C9F1CFDEAA1004C39EC /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C761CFDEAA1004C39EC /* MJRefreshComponent.m */; };
+		FDF31CA01CFDEAA1004C39EC /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C781CFDEAA1004C39EC /* MJRefreshFooter.m */; };
+		FDF31CA11CFDEAA1004C39EC /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C7A1CFDEAA1004C39EC /* MJRefreshHeader.m */; };
+		FDF31CA21CFDEAA1004C39EC /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C7F1CFDEAA1004C39EC /* MJRefreshAutoGifFooter.m */; };
+		FDF31CA31CFDEAA1004C39EC /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C811CFDEAA1004C39EC /* MJRefreshAutoNormalFooter.m */; };
+		FDF31CA41CFDEAA1004C39EC /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C831CFDEAA1004C39EC /* MJRefreshAutoStateFooter.m */; };
+		FDF31CA51CFDEAA1004C39EC /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C861CFDEAA1004C39EC /* MJRefreshBackGifFooter.m */; };
+		FDF31CA61CFDEAA1004C39EC /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C881CFDEAA1004C39EC /* MJRefreshBackNormalFooter.m */; };
+		FDF31CA71CFDEAA1004C39EC /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C8A1CFDEAA1004C39EC /* MJRefreshBackStateFooter.m */; };
+		FDF31CA81CFDEAA1004C39EC /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C8D1CFDEAA1004C39EC /* MJRefreshGifHeader.m */; };
+		FDF31CA91CFDEAA1004C39EC /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C8F1CFDEAA1004C39EC /* MJRefreshNormalHeader.m */; };
+		FDF31CAA1CFDEAA1004C39EC /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C911CFDEAA1004C39EC /* MJRefreshStateHeader.m */; };
+		FDF31CAB1CFDEAA1004C39EC /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FDF31C921CFDEAA1004C39EC /* MJRefresh.bundle */; };
+		FDF31CAC1CFDEAA1004C39EC /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C951CFDEAA1004C39EC /* MJRefreshConst.m */; };
+		FDF31CAD1CFDEAA1004C39EC /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C971CFDEAA1004C39EC /* UIScrollView+MJExtension.m */; };
+		FDF31CAE1CFDEAA1004C39EC /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C991CFDEAA1004C39EC /* UIScrollView+MJRefresh.m */; };
+		FDF31CAF1CFDEAA1004C39EC /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF31C9B1CFDEAA1004C39EC /* UIView+MJExtension.m */; };
+		FDF31CB31CFDEB00004C39EC /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31CB01CFDEB00004C39EC /* DataRequest.swift */; };
+		FDF31CB41CFDEB00004C39EC /* NewsDataRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31CB11CFDEB00004C39EC /* NewsDataRequestDelegate.swift */; };
+		FDF31CB51CFDEB00004C39EC /* SlideMenuThemeDataRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31CB21CFDEB00004C39EC /* SlideMenuThemeDataRequestDelegate.swift */; };
+		FDF31CB91CFDEB33004C39EC /* NewsCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31CB71CFDEB33004C39EC /* NewsCellModel.swift */; };
+		FDF31CBA1CFDEB33004C39EC /* SlideMenuThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31CB81CFDEB33004C39EC /* SlideMenuThemeModel.swift */; };
+		FDF31CC01CFDEE1A004C39EC /* AuthorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31CBE1CFDEE1A004C39EC /* AuthorInfoViewController.swift */; };
+		FDF31CC11CFDEE1A004C39EC /* AuthorInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDF31CBF1CFDEE1A004C39EC /* AuthorInfoViewController.xib */; };
+		FDF31CC31CFDF4EB004C39EC /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31CC21CFDF4EB004C39EC /* NewsListViewController.swift */; };
+		FDF31CC71CFDFAB2004C39EC /* ThemeDataViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31CC51CFDFAB2004C39EC /* ThemeDataViewController+TableView.swift */; };
+		FDF31CC81CFDFAB2004C39EC /* ViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31CC61CFDFAB2004C39EC /* ViewController+TableView.swift */; };
+		FDF31CD51CFDFCD8004C39EC /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31CD41CFDFCD8004C39EC /* ActionViewController.swift */; };
+		FDF31CD81CFDFCD8004C39EC /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF31CD61CFDFCD8004C39EC /* MainInterface.storyboard */; };
+		FDF31CE61CFDFD21004C39EC /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31CE21CFDFD21004C39EC /* NewsTableViewCell.swift */; };
+		FDF31CE71CFDFD21004C39EC /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDF31CE31CFDFD21004C39EC /* NewsTableViewCell.xib */; };
+		FDF31CE81CFDFD21004C39EC /* ThemeDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31CE41CFDFD21004C39EC /* ThemeDataTableViewCell.swift */; };
+		FDF31CE91CFDFD21004C39EC /* ThemeDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDF31CE51CFDFD21004C39EC /* ThemeDataTableViewCell.xib */; };
+		FDF31CED1CFDFD89004C39EC /* ThemeDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31CEC1CFDFD89004C39EC /* ThemeDataViewController.swift */; };
+		FDF31CF31CFE01E8004C39EC /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF31CF21CFE01E8004C39EC /* LeftViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +74,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31EE08A1D36C208AECF645A4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4304C5EA093A5F3DF4C5D8BF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		662F186D281314590229A467 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FDF31C1C1CFCAF09004C39EC /* MyFirstSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF31C1F1CFCAF09004C39EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDF31C211CFCAF09004C39EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +90,68 @@
 		FDF31C3B1CFCAF09004C39EC /* MyFirstSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF31C3F1CFCAF09004C39EC /* MyFirstSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		FDF31C411CFCAF09004C39EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF31C4D1CFCBE6D004C39EC /* MyFirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFirstTableViewCell.swift; sourceTree = "<group>"; };
+		FDF31C6C1CFDEAA0004C39EC /* MyFirstSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFirstSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		FDF31C6D1CFDEAA1004C39EC /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FDF31C6E1CFDEAA1004C39EC /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FDF31C711CFDEAA1004C39EC /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		FDF31C721CFDEAA1004C39EC /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		FDF31C731CFDEAA1004C39EC /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		FDF31C741CFDEAA1004C39EC /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		FDF31C751CFDEAA1004C39EC /* MJRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshComponent.h; sourceTree = "<group>"; };
+		FDF31C761CFDEAA1004C39EC /* MJRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshComponent.m; sourceTree = "<group>"; };
+		FDF31C771CFDEAA1004C39EC /* MJRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooter.h; sourceTree = "<group>"; };
+		FDF31C781CFDEAA1004C39EC /* MJRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshFooter.m; sourceTree = "<group>"; };
+		FDF31C791CFDEAA1004C39EC /* MJRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshHeader.h; sourceTree = "<group>"; };
+		FDF31C7A1CFDEAA1004C39EC /* MJRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeader.m; sourceTree = "<group>"; };
+		FDF31C7E1CFDEAA1004C39EC /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		FDF31C7F1CFDEAA1004C39EC /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		FDF31C801CFDEAA1004C39EC /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		FDF31C811CFDEAA1004C39EC /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		FDF31C821CFDEAA1004C39EC /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		FDF31C831CFDEAA1004C39EC /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		FDF31C851CFDEAA1004C39EC /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		FDF31C861CFDEAA1004C39EC /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		FDF31C871CFDEAA1004C39EC /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		FDF31C881CFDEAA1004C39EC /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		FDF31C891CFDEAA1004C39EC /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		FDF31C8A1CFDEAA1004C39EC /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		FDF31C8C1CFDEAA1004C39EC /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		FDF31C8D1CFDEAA1004C39EC /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		FDF31C8E1CFDEAA1004C39EC /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		FDF31C8F1CFDEAA1004C39EC /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		FDF31C901CFDEAA1004C39EC /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		FDF31C911CFDEAA1004C39EC /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		FDF31C921CFDEAA1004C39EC /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		FDF31C931CFDEAA1004C39EC /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
+		FDF31C941CFDEAA1004C39EC /* MJRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshConst.h; sourceTree = "<group>"; };
+		FDF31C951CFDEAA1004C39EC /* MJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConst.m; sourceTree = "<group>"; };
+		FDF31C961CFDEAA1004C39EC /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		FDF31C971CFDEAA1004C39EC /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		FDF31C981CFDEAA1004C39EC /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		FDF31C991CFDEAA1004C39EC /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		FDF31C9A1CFDEAA1004C39EC /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		FDF31C9B1CFDEAA1004C39EC /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		FDF31CB01CFDEB00004C39EC /* DataRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		FDF31CB11CFDEB00004C39EC /* NewsDataRequestDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDataRequestDelegate.swift; sourceTree = "<group>"; };
+		FDF31CB21CFDEB00004C39EC /* SlideMenuThemeDataRequestDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuThemeDataRequestDelegate.swift; sourceTree = "<group>"; };
+		FDF31CB71CFDEB33004C39EC /* NewsCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCellModel.swift; sourceTree = "<group>"; };
+		FDF31CB81CFDEB33004C39EC /* SlideMenuThemeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuThemeModel.swift; sourceTree = "<group>"; };
+		FDF31CBE1CFDEE1A004C39EC /* AuthorInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorInfoViewController.swift; sourceTree = "<group>"; };
+		FDF31CBF1CFDEE1A004C39EC /* AuthorInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthorInfoViewController.xib; sourceTree = "<group>"; };
+		FDF31CC21CFDF4EB004C39EC /* NewsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		FDF31CC51CFDFAB2004C39EC /* ThemeDataViewController+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThemeDataViewController+TableView.swift"; sourceTree = "<group>"; };
+		FDF31CC61CFDFAB2004C39EC /* ViewController+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+TableView.swift"; sourceTree = "<group>"; };
+		FDF31CD21CFDFCD8004C39EC /* MyViewController.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyViewController.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF31CD41CFDFCD8004C39EC /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		FDF31CD71CFDFCD8004C39EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		FDF31CD91CFDFCD8004C39EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF31CE21CFDFD21004C39EC /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		FDF31CE31CFDFD21004C39EC /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		FDF31CE41CFDFD21004C39EC /* ThemeDataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeDataTableViewCell.swift; sourceTree = "<group>"; };
+		FDF31CE51CFDFD21004C39EC /* ThemeDataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThemeDataTableViewCell.xib; sourceTree = "<group>"; };
+		FDF31CEC1CFDFD89004C39EC /* ThemeDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeDataViewController.swift; sourceTree = "<group>"; };
+		FDF31CF21CFE01E8004C39EC /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A5D9321F0CE667B5DC1C50 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,16 +177,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDF31CCF1CFDFCD8004C39EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1895914112629A03B1AFBD49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4304C5EA093A5F3DF4C5D8BF /* Pods.debug.xcconfig */,
+				662F186D281314590229A467 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A68432CEE8956ED963FD69C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31EE08A1D36C208AECF645A4 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FDF31C131CFCAF09004C39EC = {
 			isa = PBXGroup;
 			children = (
 				FDF31C1E1CFCAF09004C39EC /* MyFirstSwiftDemo */,
 				FDF31C331CFCAF09004C39EC /* MyFirstSwiftDemoTests */,
 				FDF31C3E1CFCAF09004C39EC /* MyFirstSwiftDemoUITests */,
+				FDF31CD31CFDFCD8004C39EC /* MyViewController */,
 				FDF31C1D1CFCAF09004C39EC /* Products */,
+				1895914112629A03B1AFBD49 /* Pods */,
+				A68432CEE8956ED963FD69C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +223,7 @@
 				FDF31C1C1CFCAF09004C39EC /* MyFirstSwiftDemo.app */,
 				FDF31C301CFCAF09004C39EC /* MyFirstSwiftDemoTests.xctest */,
 				FDF31C3B1CFCAF09004C39EC /* MyFirstSwiftDemoUITests.xctest */,
+				FDF31CD21CFDFCD8004C39EC /* MyViewController.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,8 +231,13 @@
 		FDF31C1E1CFCAF09004C39EC /* MyFirstSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FDF31CE11CFDFD0A004C39EC /* Cell */,
+				FDF31CC41CFDFAA0004C39EC /* Extention */,
+				FDF31CBB1CFDECBE004C39EC /* Controller */,
+				FDF31CB61CFDEB23004C39EC /* Model */,
+				FDF31C6B1CFDEA7B004C39EC /* Tools */,
 				FDF31C1F1CFCAF09004C39EC /* AppDelegate.swift */,
-				FDF31C211CFCAF09004C39EC /* ViewController.swift */,
+				FDF31C4D1CFCBE6D004C39EC /* MyFirstTableViewCell.swift */,
 				FDF31C231CFCAF09004C39EC /* Main.storyboard */,
 				FDF31C261CFCAF09004C39EC /* Assets.xcassets */,
 				FDF31C281CFCAF09004C39EC /* LaunchScreen.storyboard */,
@@ -125,6 +264,165 @@
 			path = MyFirstSwiftDemoUITests;
 			sourceTree = "<group>";
 		};
+		FDF31C6B1CFDEA7B004C39EC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FDF31CB01CFDEB00004C39EC /* DataRequest.swift */,
+				FDF31CB11CFDEB00004C39EC /* NewsDataRequestDelegate.swift */,
+				FDF31CB21CFDEB00004C39EC /* SlideMenuThemeDataRequestDelegate.swift */,
+				FDF31C6D1CFDEAA1004C39EC /* MBProgressHUD.h */,
+				FDF31C6E1CFDEAA1004C39EC /* MBProgressHUD.m */,
+				FDF31C6F1CFDEAA1004C39EC /* MJRefresh */,
+				FDF31C6C1CFDEAA0004C39EC /* MyFirstSwiftDemo-Bridging-Header.h */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		FDF31C6F1CFDEAA1004C39EC /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				FDF31C701CFDEAA1004C39EC /* Base */,
+				FDF31C7B1CFDEAA1004C39EC /* Custom */,
+				FDF31C921CFDEAA1004C39EC /* MJRefresh.bundle */,
+				FDF31C931CFDEAA1004C39EC /* MJRefresh.h */,
+				FDF31C941CFDEAA1004C39EC /* MJRefreshConst.h */,
+				FDF31C951CFDEAA1004C39EC /* MJRefreshConst.m */,
+				FDF31C961CFDEAA1004C39EC /* UIScrollView+MJExtension.h */,
+				FDF31C971CFDEAA1004C39EC /* UIScrollView+MJExtension.m */,
+				FDF31C981CFDEAA1004C39EC /* UIScrollView+MJRefresh.h */,
+				FDF31C991CFDEAA1004C39EC /* UIScrollView+MJRefresh.m */,
+				FDF31C9A1CFDEAA1004C39EC /* UIView+MJExtension.h */,
+				FDF31C9B1CFDEAA1004C39EC /* UIView+MJExtension.m */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		FDF31C701CFDEAA1004C39EC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FDF31C711CFDEAA1004C39EC /* MJRefreshAutoFooter.h */,
+				FDF31C721CFDEAA1004C39EC /* MJRefreshAutoFooter.m */,
+				FDF31C731CFDEAA1004C39EC /* MJRefreshBackFooter.h */,
+				FDF31C741CFDEAA1004C39EC /* MJRefreshBackFooter.m */,
+				FDF31C751CFDEAA1004C39EC /* MJRefreshComponent.h */,
+				FDF31C761CFDEAA1004C39EC /* MJRefreshComponent.m */,
+				FDF31C771CFDEAA1004C39EC /* MJRefreshFooter.h */,
+				FDF31C781CFDEAA1004C39EC /* MJRefreshFooter.m */,
+				FDF31C791CFDEAA1004C39EC /* MJRefreshHeader.h */,
+				FDF31C7A1CFDEAA1004C39EC /* MJRefreshHeader.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FDF31C7B1CFDEAA1004C39EC /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				FDF31C7C1CFDEAA1004C39EC /* Footer */,
+				FDF31C8B1CFDEAA1004C39EC /* Header */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		FDF31C7C1CFDEAA1004C39EC /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				FDF31C7D1CFDEAA1004C39EC /* Auto */,
+				FDF31C841CFDEAA1004C39EC /* Back */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		FDF31C7D1CFDEAA1004C39EC /* Auto */ = {
+			isa = PBXGroup;
+			children = (
+				FDF31C7E1CFDEAA1004C39EC /* MJRefreshAutoGifFooter.h */,
+				FDF31C7F1CFDEAA1004C39EC /* MJRefreshAutoGifFooter.m */,
+				FDF31C801CFDEAA1004C39EC /* MJRefreshAutoNormalFooter.h */,
+				FDF31C811CFDEAA1004C39EC /* MJRefreshAutoNormalFooter.m */,
+				FDF31C821CFDEAA1004C39EC /* MJRefreshAutoStateFooter.h */,
+				FDF31C831CFDEAA1004C39EC /* MJRefreshAutoStateFooter.m */,
+			);
+			path = Auto;
+			sourceTree = "<group>";
+		};
+		FDF31C841CFDEAA1004C39EC /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				FDF31C851CFDEAA1004C39EC /* MJRefreshBackGifFooter.h */,
+				FDF31C861CFDEAA1004C39EC /* MJRefreshBackGifFooter.m */,
+				FDF31C871CFDEAA1004C39EC /* MJRefreshBackNormalFooter.h */,
+				FDF31C881CFDEAA1004C39EC /* MJRefreshBackNormalFooter.m */,
+				FDF31C891CFDEAA1004C39EC /* MJRefreshBackStateFooter.h */,
+				FDF31C8A1CFDEAA1004C39EC /* MJRefreshBackStateFooter.m */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		FDF31C8B1CFDEAA1004C39EC /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				FDF31C8C1CFDEAA1004C39EC /* MJRefreshGifHeader.h */,
+				FDF31C8D1CFDEAA1004C39EC /* MJRefreshGifHeader.m */,
+				FDF31C8E1CFDEAA1004C39EC /* MJRefreshNormalHeader.h */,
+				FDF31C8F1CFDEAA1004C39EC /* MJRefreshNormalHeader.m */,
+				FDF31C901CFDEAA1004C39EC /* MJRefreshStateHeader.h */,
+				FDF31C911CFDEAA1004C39EC /* MJRefreshStateHeader.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		FDF31CB61CFDEB23004C39EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDF31CB71CFDEB33004C39EC /* NewsCellModel.swift */,
+				FDF31CB81CFDEB33004C39EC /* SlideMenuThemeModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FDF31CBB1CFDECBE004C39EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FDF31C211CFCAF09004C39EC /* ViewController.swift */,
+				FDF31CBE1CFDEE1A004C39EC /* AuthorInfoViewController.swift */,
+				FDF31CBF1CFDEE1A004C39EC /* AuthorInfoViewController.xib */,
+				FDF31CC21CFDF4EB004C39EC /* NewsListViewController.swift */,
+				FDF31CEC1CFDFD89004C39EC /* ThemeDataViewController.swift */,
+				FDF31CF21CFE01E8004C39EC /* LeftViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FDF31CC41CFDFAA0004C39EC /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				FDF31CC51CFDFAB2004C39EC /* ThemeDataViewController+TableView.swift */,
+				FDF31CC61CFDFAB2004C39EC /* ViewController+TableView.swift */,
+			);
+			name = Extention;
+			sourceTree = "<group>";
+		};
+		FDF31CD31CFDFCD8004C39EC /* MyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FDF31CD41CFDFCD8004C39EC /* ActionViewController.swift */,
+				FDF31CD61CFDFCD8004C39EC /* MainInterface.storyboard */,
+				FDF31CD91CFDFCD8004C39EC /* Info.plist */,
+			);
+			path = MyViewController;
+			sourceTree = "<group>";
+		};
+		FDF31CE11CFDFD0A004C39EC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FDF31CE21CFDFD21004C39EC /* NewsTableViewCell.swift */,
+				FDF31CE31CFDFD21004C39EC /* NewsTableViewCell.xib */,
+				FDF31CE41CFDFD21004C39EC /* ThemeDataTableViewCell.swift */,
+				FDF31CE51CFDFD21004C39EC /* ThemeDataTableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +430,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDF31C441CFCAF09004C39EC /* Build configuration list for PBXNativeTarget "MyFirstSwiftDemo" */;
 			buildPhases = (
+				2BF4C89E9DE4C47FE4E88219 /* Check Pods Manifest.lock */,
 				FDF31C181CFCAF09004C39EC /* Sources */,
 				FDF31C191CFCAF09004C39EC /* Frameworks */,
 				FDF31C1A1CFCAF09004C39EC /* Resources */,
+				3D45DDDB7DF65A7EF9487F62 /* Embed Pods Frameworks */,
+				3C9F7ECE63030F4E3120D5F8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,6 +482,23 @@
 			productReference = FDF31C3B1CFCAF09004C39EC /* MyFirstSwiftDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		FDF31CD11CFDFCD8004C39EC /* MyViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF31CDD1CFDFCD8004C39EC /* Build configuration list for PBXNativeTarget "MyViewController" */;
+			buildPhases = (
+				FDF31CCE1CFDFCD8004C39EC /* Sources */,
+				FDF31CCF1CFDFCD8004C39EC /* Frameworks */,
+				FDF31CD01CFDFCD8004C39EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyViewController;
+			productName = MyViewController;
+			productReference = FDF31CD21CFDFCD8004C39EC /* MyViewController.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +520,9 @@
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = FDF31C1B1CFCAF09004C39EC;
 					};
+					FDF31CD11CFDFCD8004C39EC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 				};
 			};
 			buildConfigurationList = FDF31C171CFCAF09004C39EC /* Build configuration list for PBXProject "MyFirstSwiftDemo" */;
@@ -220,6 +541,7 @@
 				FDF31C1B1CFCAF09004C39EC /* MyFirstSwiftDemo */,
 				FDF31C2F1CFCAF09004C39EC /* MyFirstSwiftDemoTests */,
 				FDF31C3A1CFCAF09004C39EC /* MyFirstSwiftDemoUITests */,
+				FDF31CD11CFDFCD8004C39EC /* MyViewController */,
 			);
 		};
 /* End PBXProject section */
@@ -231,7 +553,11 @@
 			files = (
 				FDF31C2A1CFCAF09004C39EC /* LaunchScreen.storyboard in Resources */,
 				FDF31C271CFCAF09004C39EC /* Assets.xcassets in Resources */,
+				FDF31CAB1CFDEAA1004C39EC /* MJRefresh.bundle in Resources */,
 				FDF31C251CFCAF09004C39EC /* Main.storyboard in Resources */,
+				FDF31CE71CFDFD21004C39EC /* NewsTableViewCell.xib in Resources */,
+				FDF31CE91CFDFD21004C39EC /* ThemeDataTableViewCell.xib in Resources */,
+				FDF31CC11CFDEE1A004C39EC /* AuthorInfoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,15 +575,104 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDF31CD01CFDFCD8004C39EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF31CD81CFDFCD8004C39EC /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BF4C89E9DE4C47FE4E88219 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C9F7ECE63030F4E3120D5F8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D45DDDB7DF65A7EF9487F62 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FDF31C181CFCAF09004C39EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF31CA31CFDEAA1004C39EC /* MJRefreshAutoNormalFooter.m in Sources */,
+				FDF31CB31CFDEB00004C39EC /* DataRequest.swift in Sources */,
+				FDF31CB91CFDEB33004C39EC /* NewsCellModel.swift in Sources */,
+				FDF31CA61CFDEAA1004C39EC /* MJRefreshBackNormalFooter.m in Sources */,
+				FDF31CB41CFDEB00004C39EC /* NewsDataRequestDelegate.swift in Sources */,
+				FDF31CC81CFDFAB2004C39EC /* ViewController+TableView.swift in Sources */,
+				FDF31CC71CFDFAB2004C39EC /* ThemeDataViewController+TableView.swift in Sources */,
+				FDF31C9E1CFDEAA1004C39EC /* MJRefreshBackFooter.m in Sources */,
+				FDF31CAC1CFDEAA1004C39EC /* MJRefreshConst.m in Sources */,
+				FDF31CED1CFDFD89004C39EC /* ThemeDataViewController.swift in Sources */,
+				FDF31CAD1CFDEAA1004C39EC /* UIScrollView+MJExtension.m in Sources */,
+				FDF31CB51CFDEB00004C39EC /* SlideMenuThemeDataRequestDelegate.swift in Sources */,
+				FDF31CA01CFDEAA1004C39EC /* MJRefreshFooter.m in Sources */,
+				FDF31CA81CFDEAA1004C39EC /* MJRefreshGifHeader.m in Sources */,
+				FDF31C9D1CFDEAA1004C39EC /* MJRefreshAutoFooter.m in Sources */,
 				FDF31C221CFCAF09004C39EC /* ViewController.swift in Sources */,
+				FDF31CAF1CFDEAA1004C39EC /* UIView+MJExtension.m in Sources */,
+				FDF31CC31CFDF4EB004C39EC /* NewsListViewController.swift in Sources */,
+				FDF31CA11CFDEAA1004C39EC /* MJRefreshHeader.m in Sources */,
+				FDF31CA51CFDEAA1004C39EC /* MJRefreshBackGifFooter.m in Sources */,
+				FDF31CAE1CFDEAA1004C39EC /* UIScrollView+MJRefresh.m in Sources */,
+				FDF31C4E1CFCBE6D004C39EC /* MyFirstTableViewCell.swift in Sources */,
+				FDF31C9F1CFDEAA1004C39EC /* MJRefreshComponent.m in Sources */,
+				FDF31CE61CFDFD21004C39EC /* NewsTableViewCell.swift in Sources */,
+				FDF31CA41CFDEAA1004C39EC /* MJRefreshAutoStateFooter.m in Sources */,
+				FDF31CA91CFDEAA1004C39EC /* MJRefreshNormalHeader.m in Sources */,
+				FDF31CAA1CFDEAA1004C39EC /* MJRefreshStateHeader.m in Sources */,
+				FDF31CA71CFDEAA1004C39EC /* MJRefreshBackStateFooter.m in Sources */,
+				FDF31CA21CFDEAA1004C39EC /* MJRefreshAutoGifFooter.m in Sources */,
 				FDF31C201CFCAF09004C39EC /* AppDelegate.swift in Sources */,
+				FDF31CC01CFDEE1A004C39EC /* AuthorInfoViewController.swift in Sources */,
+				FDF31CE81CFDFD21004C39EC /* ThemeDataTableViewCell.swift in Sources */,
+				FDF31C9C1CFDEAA1004C39EC /* MBProgressHUD.m in Sources */,
+				FDF31CF31CFE01E8004C39EC /* LeftViewController.swift in Sources */,
+				FDF31CBA1CFDEB33004C39EC /* SlideMenuThemeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +689,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF31C401CFCAF09004C39EC /* MyFirstSwiftDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF31CCE1CFDFCD8004C39EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF31CD51CFDFCD8004C39EC /* ActionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +730,14 @@
 				FDF31C291CFCAF09004C39EC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FDF31CD61CFDFCD8004C39EC /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF31CD71CFDFCD8004C39EC /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -395,23 +826,32 @@
 		};
 		FDF31C451CFCAF09004C39EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4304C5EA093A5F3DF4C5D8BF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyFirstSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jackren-email-163.com.MyFirstSwiftDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyFirstSwiftDemo/MyFirstSwiftDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		FDF31C461CFCAF09004C39EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662F186D281314590229A467 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyFirstSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jackren-email-163.com.MyFirstSwiftDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyFirstSwiftDemo/MyFirstSwiftDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -463,6 +903,28 @@
 			};
 			name = Release;
 		};
+		FDF31CDE1CFDFCD8004C39EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackren-email-163.com.MyFirstSwiftDemo.MyViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FDF31CDF1CFDFCD8004C39EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackren-email-163.com.MyFirstSwiftDemo.MyViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -482,6 +944,7 @@
 				FDF31C461CFCAF09004C39EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDF31C471CFCAF09004C39EC /* Build configuration list for PBXNativeTarget "MyFirstSwiftDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,12 +953,22 @@
 				FDF31C491CFCAF09004C39EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDF31C4A1CFCAF09004C39EC /* Build configuration list for PBXNativeTarget "MyFirstSwiftDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDF31C4B1CFCAF09004C39EC /* Debug */,
 				FDF31C4C1CFCAF09004C39EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF31CDD1CFDFCD8004C39EC /* Build configuration list for PBXNativeTarget "MyViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF31CDE1CFDFCD8004C39EC /* Debug */,
+				FDF31CDF1CFDFCD8004C39EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

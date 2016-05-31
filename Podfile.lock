@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (3.1.5)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SlideMenuControllerSwift (2.0.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - SDWebImage (~> 3.7)
+  - SlideMenuControllerSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SlideMenuControllerSwift: 9dcae36265e14c4f42e729f212463beb60d2cf96
+
+COCOAPODS: 0.39.0
